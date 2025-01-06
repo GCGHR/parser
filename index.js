@@ -78,7 +78,7 @@ public class AdvancedWikipediaParser {
             try {
                 Document doc = Jsoup.connect(link).get();
                 System.out.println("Crawling: " + link);
-                // You can extract and store additional data from each linked page here
+                // You can extract and store additional data from each linked page
             } catch (IOException e) {
                 System.err.println("Failed to crawl link: " + link);
             }
